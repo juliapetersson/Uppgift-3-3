@@ -2,18 +2,23 @@
 
 #topbar {
 	background-color: #FFF;
-	border: 2px solid #000;
+	border: 1px solid #000;
 }
 
 #menu {
 	background-color: #FFF;
-	border: 2px solid #000;
+	border: 1px solid #000;
+	float: left;
+	margin-top: 100px;
+}
+
+#menu li {
 	float: left;
 }
 
 #container {
 	background-color: #FFF;
-	border: 2px solid #000;
+	border: 1px solid #000;
 	overflow: auto;
 	width: 960px;
 	margin: 0 auto;
@@ -27,23 +32,18 @@
 }
 
 #maincontent {
-	background-color: #FFF;
-	border: 2px solid #000;
-	width: 550px;
+	border-right: 2px dotted #000;
+	width: 570px;
 	float: left;
 }
 
 #subcontent {
-	background-color: #FFF;
-	border: 2px solid #000;
 	float: right;
 	width: 350px;
 
 }
 
 #bottomcontent {
-	background-color: #FFF;
-	border: 1px solid #000;
-	width: 956px;
+	width: 958px;
 	float: left;
 }
