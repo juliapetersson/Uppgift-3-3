@@ -71,8 +71,9 @@
 
 #subcontent {
 	float: right;
-	width: 350px;
+	width: 345px;
 	margin-top: 20px;
+	padding: 5px;
 }
 
 #subcontent h1 {
@@ -92,8 +93,12 @@
 
 #subcontent p {
 	font-family: verdana;
-	font-size: 15px;
+	font-size: 14px;
 	color: #51473d;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	line-height: 28px;
+	
 }
 
 #subcontent a {
