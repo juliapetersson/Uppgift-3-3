@@ -2,16 +2,20 @@
 
 #topbar {
 	background-color: #51473d;
+	
+	
 	color: #eae7d2;
 	font-family: verdana;
 	font-size: 15px;
 	font-style: italic;
+	padding: 2px;
+	padding-left: 770px;
 }
 
 #menu {
 	background-color: #51473d;
 	float: left;
-	margin-top: 299px;
+	margin-top: 306px;
 	width: 960px;
 }
 
@@ -34,6 +38,7 @@
 #container {
 	background-image: url("pics/coffey.jpg");
 	background-size: 100% auto;
+	background-position: 0px 10px;
 	overflow: auto;
 	width: 960px;
 	margin: 0 auto;
@@ -41,8 +46,8 @@
 
 #content {
 	background-color: #eae7d2;
-	border: 1px outset #51473d;
-	width: 958px;
+	
+	width: 960px;
 	float: left;
 }
 
