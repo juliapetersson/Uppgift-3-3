@@ -1,16 +1,15 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
 
 #topbar {
-	background-color: #FFF;
-	border: 1px solid #000;
+	background-color: #51473d;
+	
 }
 
 #menu {
-	background-color: #FFF;
-	border: 1px solid #000;
+	background-color: #51473d;
 	float: left;
-	margin-top: 298px;
-	width: 958px;
+	margin-top: 299px;
+	width: 960px;
 }
 
 #menu ul {
@@ -32,21 +31,20 @@
 #container {
 	background-image: url("pics/coffey.jpg");
 	background-size: 100% auto;
-	border: 1px solid #000;
 	overflow: auto;
 	width: 960px;
 	margin: 0 auto;
 }
 
 #content {
-	background-color: #FFF;
-	border: 1px solid #000;
+	background-color: #eae7d2;
+	border: 1px outset #51473d;
 	width: 958px;
 	float: left;
 }
 
 #maincontent {
-	border-right: 2px dotted #000;
+	border-right: 2px dashed #51473d;
 	width: 570px;
 	float: left;
 }
