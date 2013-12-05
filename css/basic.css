@@ -2,8 +2,6 @@
 
 #topbar {
 	background-color: #51473d;
-	
-	
 	color: #eae7d2;
 	font-family: verdana;
 	font-size: 15px;
@@ -52,10 +50,11 @@
 }
 
 #maincontent {
-	border-right: 1px dashed #51473d;
+	border-right: 1px dashed #797066;
 	width: 570px;
 	float: left;
 	padding: 10px;
+	margin-top: 5px;
 }
 
 #maincontent h1 {
@@ -69,22 +68,47 @@
 	color: #797066;
 }
 
+
 #subcontent {
 	float: right;
 	width: 350px;
-	
+	margin-top: 20px;
 }
 
 #subcontent h1 {
-	font-family: ;
+	font-family: new times roman;
+	font-weight: normal;
 	font-size: 25px;
 	color: #51473d;
+}
+
+#subcontent h2 {
+	font-family: new times roman;
+	font-weight: normal;
+	font-size: 20px;
+	color: #51473d;
+	margin: 0;
 }
 
 #subcontent p {
 	font-family: verdana;
 	font-size: 15px;
 	color: #51473d;
+}
+
+#subcontent a {
+	color: #51473d;
+}
+
+#subcontent ul {
+	padding: 0;
+	margin: 0;
+	
+}
+
+#subcontent li {
+	list-style-type: none;
+	font-family: verdana;
 }
 
 #bottomcontent {
