@@ -2,7 +2,10 @@
 
 #topbar {
 	background-color: #51473d;
-	
+	color: #eae7d2;
+	font-family: verdana;
+	font-size: 15px;
+	font-style: italic;
 }
 
 #menu {
@@ -44,18 +47,48 @@
 }
 
 #maincontent {
-	border-right: 2px dashed #51473d;
+	border-right: 1px dashed #51473d;
 	width: 570px;
 	float: left;
+	padding: 10px;
+}
+
+#maincontent h1 {
+	font-family: times new roman;
+	color: #797066;
+}
+
+#maincontent p {
+	font-family: verdana;
+	font-size: 18px;
+	color: #797066;
 }
 
 #subcontent {
 	float: right;
 	width: 350px;
+	
+}
 
+#subcontent h1 {
+	font-family: ;
+	font-size: 25px;
+	color: #51473d;
+}
+
+#subcontent p {
+	font-family: verdana;
+	font-size: 15px;
+	color: #51473d;
 }
 
 #bottomcontent {
-	width: 958px;
+	width: 930px;
 	float: left;
+	padding: 10px;
+	color: #797066;
+	font-family: verdana;
+	font-size: 15px;
+	font-style: italic;
 }
+
