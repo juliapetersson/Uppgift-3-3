@@ -50,30 +50,42 @@
 }
 
 #maincontent {
-	border-right: 1px dashed #797066;
-	width: 570px;
+	width: 520px;
 	float: left;
-	padding: 10px;
+	padding: 15px;
 	margin-top: 5px;
+	
 }
 
 #maincontent h1 {
 	font-family: times new roman;
+	font-weight: normal;
 	color: #797066;
 }
 
 #maincontent p {
 	font-family: verdana;
 	font-size: 18px;
+	margin: 0;
 	color: #797066;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	line-height: 23px;
+}
+
+#maincontent img {
+	float: left;
+	padding: 5px;
 }
 
 
 #subcontent {
+		border-left: 1px dashed #797066;
+	margin-right: 10px;
 	float: right;
 	width: 345px;
 	margin-top: 20px;
-	padding: 5px;
+	padding: 15px;
 }
 
 #subcontent h1 {
@@ -119,10 +131,11 @@
 #bottomcontent {
 	width: 930px;
 	float: left;
-	padding: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
 	color: #797066;
 	font-family: verdana;
-	font-size: 15px;
+	font-size: 14px;
 	font-style: italic;
 }
 
