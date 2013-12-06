@@ -18,63 +18,50 @@
 	
 }
 
-/*skip navigation*/
-#menu a:first-child {
-	color: #51473d;
-	
-}
+
 
 #menu ul {
 	display: block;
 	padding: 15px;
 	width: 800px;
 	margin: 0px;
+	list-style-type: none;
+	text-align: center;
 }
 
 #menu li {
 	float: left;
 	background-color: #797066;
-	color: #797066;
 	padding: 20px;
-	list-style-type: none;
 	border-right: 1px solid #51473d;
 	text-transform: capitalize;
-
+	text-decoration: none;
+	font-family: verdana;
+	color: #797066;
+	display: block;
 }
-/*menylänkar*/
-#menu li.active {
+
+#menu ul li a {
+	color: #eae7d2;
+	text-decoration: none;
+}
+
+#menu li.active a{
 	color: #797066;
 	text-decoration: none;
-	background-color: #eae7d2;
-	padding: 20px;
 }
+
+#menu li.active {
+	background-color: #eae7d2;
+}
+
 
 #menu li:hover {
 	background-color: #9c9084;
-	padding: 20px;
+	text-decoration: none;
 }
 
-#menu li a:link {
-	font-family: verdana;
-	font-size: 20px;
-	text-decoration: none;
-}
-#menu li a:visited {
-	color: #eae7d2;
-	text-decoration: none;
-}
-#menu li a:focus {
-	color: #9c9084;
-	text-decoration: none;
-}
-#menu li a:hover {
-	color: #eae7d2;
-	text-decoration: none;
-}
-#menu li a:active {
-	color: #797066;
-	text-decoration: none;
-}
+
 
 #container {
 	background-image: url("pics/coffey.jpg");
